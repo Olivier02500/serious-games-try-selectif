@@ -1,0 +1,81 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #289a28
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 2% auto;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#left , #right {
+    width: 40%;
+    border: 3px solid yellow;
+    border-radius: 15%;
+}
+
+#right {
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trash {
+    width: 25%;
+    text-align: center;
+    font-size: 15rem;
+}
+
+#dechet {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#garbage {
+    width: 25%;
+    border: 2px solid saddlebrown;
+    border-radius: 15%;
+    text-align: center;
+}
+
+#yellow {
+    color: #E0D42B;
+}
+
+#green {
+    color: #09561c;
+}
+
+#blue {
+    color: #323875;
+}
+
+#brown {
+    color: #69471E;
+}
+
+#left > div {
+    font-size:  1.6rem;
+    height: 250px;
+    padding: 3%;
+}
+
